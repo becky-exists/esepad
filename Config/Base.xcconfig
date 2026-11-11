@@ -1,0 +1,11 @@
+// 共通の設定。自分の Apple ID で署名するときは、Config/Local.xcconfig（git には入らない）を作って 2 行書く:
+//
+//   BUNDLE_ID_PREFIX = com.yourname
+//   DEVELOPMENT_TEAM = ABCDE12345
+//
+// チーム ID は Xcode > Settings > Accounts に出る。
+
+BUNDLE_ID_PREFIX = jp.interventionworks
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"

@@ -1,0 +1,13 @@
+{
+  "fill" : { "solid" : "srgb:0.09804,0.10588,0.12157,1.00000" },
+  "groups" : [
+    {
+      "layers" : [
+        { "image-name" : "e.png", "name" : "e", "glass" : false }
+      ],
+      "shadow" : { "kind" : "none", "opacity" : 0 },
+      "translucency" : { "enabled" : false, "value" : 0 }
+    }
+  ],
+  "supported-platforms" : { "squares" : [ "macOS" ] }
+}

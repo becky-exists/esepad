@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96839765CA26E6E732E1AC19 /* EsepadCore in Frameworks */ = {isa = PBXBuildFile; productRef = A7FB80A4374BE6E30F8CEC4C /* EsepadCore */; };
+		C3F8270B9718D2E6751DAB04 /* EsepadCore in Frameworks */ = {isa = PBXBuildFile; productRef = 864A3BE3079FEF9071F60B0E /* EsepadCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DE983DAD9475241D8378F75 /* esepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		319BDDC722E12DF679EBA8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402698E2E895A85D46C6CDA3 /* EsepadMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsepadMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C030457A8089426CBD627E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F47A7423C2534818618339D /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2B3AF757A3417235D7F178D4 /* Sources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		98FF663612BFB0173FF74E7A /* Sources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C05748427DF1E6857A8681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96839765CA26E6E732E1AC19 /* EsepadCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93512282441C05ACC0864C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F8270B9718D2E6751DAB04 /* EsepadCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9EAA854D6E7A15735C612D = {
+			isa = PBXGroup;
+			children = (
+				1384B710FA4E732E5B1DD70F /* iOS */,
+				9A85AEFDD6D7AB5C76BC0F22 /* Mac */,
+				B74F1F933D580255D5F6FAAB /* Packages */,
+				476245E578CE2CD92566CC93 /* Config */,
+				428D9261F3BFFE183A1C065D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1384B710FA4E732E5B1DD70F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B3AF757A3417235D7F178D4 /* Sources */,
+				319BDDC722E12DF679EBA8FB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9A85AEFDD6D7AB5C76BC0F22 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				98FF663612BFB0173FF74E7A /* Sources */,
+				1C030457A8089426CBD627E1 /* Info.plist */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		B74F1F933D580255D5F6FAAB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		476245E578CE2CD92566CC93 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6F47A7423C2534818618339D /* Base.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		428D9261F3BFFE183A1C065D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE983DAD9475241D8378F75 /* esepad.app */,
+				402698E2E895A85D46C6CDA3 /* EsepadMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E4BCC349D93D79FBB6D41C /* esepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84E01E39CB7AA871F24FDF0 /* Build configuration list for PBXNativeTarget "esepad" */;
+			buildPhases = (
+				C3FD3F4D8C46DDDFC1275EE7 /* Sources */,
+				F3C05748427DF1E6857A8681 /* Frameworks */,
+				ECF7BC7BEF20F8F6C5C84E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2B3AF757A3417235D7F178D4 /* Sources */,
+			);
+			name = esepad;
+			packageProductDependencies = (
+				A7FB80A4374BE6E30F8CEC4C /* EsepadCore */,
+			);
+			productName = esepad;
+			productReference = 3DE983DAD9475241D8378F75 /* esepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3237C61D56C51832C714896 /* EsepadMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E729CB51EBBAB19702C97B2 /* Build configuration list for PBXNativeTarget "EsepadMac" */;
+			buildPhases = (
+				DDC196198A0D6790EF0B595D /* Sources */,
+				93512282441C05ACC0864C8F /* Frameworks */,
+				237E22936254CE22DE73D552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98FF663612BFB0173FF74E7A /* Sources */,
+			);
+			name = EsepadMac;
+			packageProductDependencies = (
+				864A3BE3079FEF9071F60B0E /* EsepadCore */,
+			);
+			productName = EsepadMac;
+			productReference = 402698E2E895A85D46C6CDA3 /* EsepadMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69ADCA963BBA62B26F5085D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					02E4BCC349D93D79FBB6D41C = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					A3237C61D56C51832C714896 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = C427DDF379A007DE5A012E57 /* Build configuration list for PBXProject "esepad" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				en,
+				Base,
+			);
+			mainGroup = FF9EAA854D6E7A15735C612D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1C4A9E0F5B22A9D6402F2AFA /* XCLocalSwiftPackageReference "Packages/EsepadCore" */,
+			);
+			productRefGroup = 428D9261F3BFFE183A1C065D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E4BCC349D93D79FBB6D41C /* esepad */,
+				A3237C61D56C51832C714896 /* EsepadMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF7BC7BEF20F8F6C5C84E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237E22936254CE22DE73D552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3FD3F4D8C46DDDFC1275EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC196198A0D6790EF0B595D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9B432777889FFB7ACFF24C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F47A7423C2534818618339D /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C2BCCA6545DBEBA1319EADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F47A7423C2534818618339D /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040BADD6CB61B369909246DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).esepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B03B92AD90D61AB4A141BF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).esepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2F5295876315C59EF6C0610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).esepad.mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		F617964D82DE068C11349BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).esepad.mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C427DDF379A007DE5A012E57 /* Build configuration list for PBXProject "esepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B432777889FFB7ACFF24C2 /* Debug */,
+				8C2BCCA6545DBEBA1319EADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84E01E39CB7AA871F24FDF0 /* Build configuration list for PBXNativeTarget "esepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040BADD6CB61B369909246DE /* Debug */,
+				B03B92AD90D61AB4A141BF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E729CB51EBBAB19702C97B2 /* Build configuration list for PBXNativeTarget "EsepadMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5295876315C59EF6C0610E /* Debug */,
+				F617964D82DE068C11349BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1C4A9E0F5B22A9D6402F2AFA /* XCLocalSwiftPackageReference "Packages/EsepadCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/EsepadCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7FB80A4374BE6E30F8CEC4C /* EsepadCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EsepadCore;
+		};
+		864A3BE3079FEF9071F60B0E /* EsepadCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EsepadCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F69ADCA963BBA62B26F5085D /* Project object */;
+}
